@@ -1,0 +1,4 @@
+rootProject.name='waimai2'
+include ':app', ':shoppingcart2'
+project(':shoppingcart2').projectDir = new File('shoppingcart')
+include ':aboutList'

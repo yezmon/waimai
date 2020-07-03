@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:id="@+id/activity_help_how_to_use"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:background="@drawable/main_bg"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:orientation="horizontal">
+        <ImageButton
+            android:id="@+id/btn_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/back"
+
+            android:layout_marginStart="10dp"
+
+            android:layout_marginTop="16dp"
+            android:adjustViewBounds="true"
+            android:padding="0dp"
+            android:layout_marginLeft="10dp" />
+
+        <TextView
+            android:id="@+id/help_forgetpsw_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+
+            android:layout_marginStart="120dp"
+            android:layout_marginTop="15dp"
+            android:text="如何使用"
+
+            android:textSize="30dp"
+            android:layout_marginLeft="120dp" />
+
+    </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="    1.1登录及注册界面  "
+
+            android:textSize="30dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="   该界面提供了注册及登录功能，若没有账号则点击注册按钮进行注册，若已经拥有账号则输入账号密码进行登录即可。 "
+
+            android:textSize="20dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="    1.2主界面  "
+
+            android:textSize="30dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="    主界面分为三个部分：主页、订单、我的  "
+
+            android:textSize="20dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="    1.2.1主页 "
+
+            android:textSize="25dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="      主页上提供了搜索商铺，动态广告，精品推荐等功能旨在让用户能更轻易的找到自己中意的美食。"
+
+            android:textSize="20dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="   1.2.2订单  "
+
+            android:textSize="25dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="    订单页面提供了各个订单的详细情况，是否付款，备注、地址是否填写正确等皆可确认。  "
+
+            android:textSize="20dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="    1.2.3我的  "
+
+            android:textSize="25dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="    我的页面提供了一些对于账户的信息，包括个人信息修改，红包，账户充值等等。  "
+
+            android:textSize="20dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="    1.3点餐页面  "
+
+            android:textSize="30dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="    点餐页面旨在给顾客带去人性化的体验，可以随意增减食物数量并自动计算最终价格。  "
+
+            android:textSize="20dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="    1.4付款页面  "
+
+            android:textSize="30dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="    本App的付款方式仅提供了余额付款，请用户在点餐前先行查看自身账户余额是否足够。  "
+
+            android:textSize="20dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="    1.5地址修改页面  "
+
+            android:textSize="30dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="    地址修改页面提供了城市以及街道地点的选择，为测试版未包含全部地点  "
+
+            android:textSize="20dp" />
+    </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

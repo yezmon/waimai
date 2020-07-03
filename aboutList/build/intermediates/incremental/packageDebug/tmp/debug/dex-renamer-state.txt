@@ -1,0 +1,4 @@
+#Tue Jun 16 22:40:15 CST 2020
+base.0=C\:\\Users\\10358\\AndroidStudioProjects\\waimai2\\aboutList\\build\\intermediates\\dex\\debug\\out\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

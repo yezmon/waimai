@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".shangjia">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:text="店家名称" />
+
+            <TextView
+                android:id="@+id/sj_bname"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="顺子烧烤" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="39dp"
+                android:text="地址" />
+
+            <TextView
+                android:id="@+id/sj_badd"
+                android:layout_width="match_parent"
+                android:layout_height="47dp"
+                android:text="xxxxxxx" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="43dp"
+                android:text="联系电话" />
+
+            <TextView
+                android:id="@+id/sj_btel"
+                android:layout_width="match_parent"
+                android:layout_height="54dp"
+                android:text="12345678" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="43dp"
+                android:text="商家简介" />
+
+            <TextView
+                android:id="@+id/sj_bremark"
+                android:layout_width="match_parent"
+                android:layout_height="46dp"
+                android:text="TextView" />
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

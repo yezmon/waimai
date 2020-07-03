@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/activity_help"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/main_bg"
+        android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:orientation="horizontal">
+        <ImageButton
+            android:id="@+id/btn_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/back"
+
+            android:layout_marginStart="10dp"
+
+            android:layout_marginTop="16dp"
+            android:adjustViewBounds="true"
+            android:padding="0dp"
+            android:layout_marginLeft="10dp" />
+
+        <TextView
+            android:id="@+id/help_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+
+            android:layout_marginStart="120dp"
+            android:layout_marginTop="15dp"
+            android:text="充值中心"
+
+            android:textSize="30dp"
+            android:layout_marginLeft="120dp" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="用户名"
+
+            android:textSize="40dp"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="的钱包"
+
+            android:textSize="40dp"
+            android:layout_marginTop="10dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="当前余额："
+
+            android:textSize="30dp"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:id="@+id/balance"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:text="余额"
+
+            android:textSize="30dp"
+            android:layout_marginTop="10dp"/>
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="充值金额："
+
+                android:textSize="30dp"
+                android:layout_marginTop="10dp"/>
+            <EditText
+                android:id="@+id/recharge_number"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:hint="请输入充值金额"
+
+                android:textSize="30dp"
+                android:layout_marginTop="10dp"/>
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="注意：请输入1至10000的整数数字，请勿输入中文及英文。"
+            android:background="#ffffff"
+            android:textSize="20dp"
+            />
+        <Button
+            android:id="@+id/recharge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="确认充值"
+            android:textSize="40dp"
+            android:background="#F7D358"
+            />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

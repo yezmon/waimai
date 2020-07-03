@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/activity_help_forgetpsw"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/main_bg"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:orientation="horizontal">
+        <ImageButton
+            android:id="@+id/btn_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/back"
+
+            android:layout_marginStart="10dp"
+
+            android:layout_marginTop="16dp"
+            android:adjustViewBounds="true"
+            android:padding="0dp"
+            android:layout_marginLeft="10dp" />
+
+        <TextView
+            android:id="@+id/help_forgetpsw_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+
+            android:layout_marginStart="120dp"
+            android:layout_marginTop="15dp"
+            android:text="密码找回"
+
+            android:textSize="30dp"
+            android:layout_marginLeft="120dp" />
+
+    </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="      非常抱歉，本产品目前尚不支持密码找回服务，请自己保存好密码，若不慎忘记密码，可咨询产品开发人员解决。开发人员的联系方式于'关于我们'中可见。"
+
+            android:textSize="30dp" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

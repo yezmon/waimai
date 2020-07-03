@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:id="@+id/activity_help_introduce"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/main_bg"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:orientation="horizontal">
+        <ImageButton
+            android:id="@+id/btn_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/back"
+
+            android:layout_marginStart="10dp"
+
+            android:layout_marginTop="16dp"
+            android:adjustViewBounds="true"
+            android:padding="0dp"
+            android:layout_marginLeft="10dp" />
+
+        <TextView
+            android:id="@+id/help_introduce_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+
+            android:layout_marginStart="120dp"
+            android:layout_marginTop="15dp"
+            android:text="产品介绍"
+
+            android:textSize="30dp"
+            android:layout_marginLeft="120dp" />
+
+    </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="      1.1本产品名为'易餐'是一款线上外卖订餐App，于2020年6月正式上线。主要功能以在线点餐为主，后期还会增加跑腿、自取、闪购等业务。"
+            android:textSize="30dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="      1.2本产品可供消费者用户自由浏览商家并挑选餐品，包括下单、支付、评价等功能。"
+            android:textSize="30dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="      1.3本产品供商家进行门店与餐品的管理，包括开店、上架、对账、订单处理等功能。"
+            android:textSize="30dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="      1.4本产品旨在为消费者用户提供生活上的便利，提升外卖就餐的质量与体验。并提供给商家更多的获取订单的机会，实现共赢。"
+            android:textSize="30dp" />
+    </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
